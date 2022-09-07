@@ -27,8 +27,18 @@
 
         public double Divide(double dividend, double divisor)
         {
-            item = dividend / divisor;
-            return item;
+            
+            if (divisor == 0)
+            {
+                Console.Write("Dont divide by 0 dumb cunt");
+                return item;
+            }
+            else
+            {
+                item = dividend / divisor;
+                return item;
+            }
+            
         }
         public double Accumulator
         {

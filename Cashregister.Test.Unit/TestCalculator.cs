@@ -40,6 +40,13 @@ namespace CalculatorClass.Test.Unit
             Assert.That(utt.Multiply(2, 2), Is.EqualTo(4));
         }
 
+        [Test]
+        public void Divide()
+        {
+            Calculator utt = new Calculator();
+
+            Assert.That(utt.Divide(2, 0), Is.EqualTo(0));
+        }
     }
        
 
