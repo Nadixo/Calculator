@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorClass.Classes", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.Test.Unit", "Cashregister.Test.Unit\Calculator.Test.Unit.csproj", "{27FE67F4-2BB4-439E-A345-061A1F5C585E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.Test.Unit_lasse", "..\SWT\Lektion_1\Calculator\Calculator_Test\Calculator.Test.Unit_lasse.csproj", "{21374DA2-77BE-4E8D-9402-488A09B0C8E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.Test.Unit_lasse", "Calculator_Test\Calculator.Test.Unit_lasse.csproj", "{167C9678-DCA1-4307-A135-EDA00C63A487}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{27FE67F4-2BB4-439E-A345-061A1F5C585E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27FE67F4-2BB4-439E-A345-061A1F5C585E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27FE67F4-2BB4-439E-A345-061A1F5C585E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{21374DA2-77BE-4E8D-9402-488A09B0C8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21374DA2-77BE-4E8D-9402-488A09B0C8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21374DA2-77BE-4E8D-9402-488A09B0C8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21374DA2-77BE-4E8D-9402-488A09B0C8E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167C9678-DCA1-4307-A135-EDA00C63A487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167C9678-DCA1-4307-A135-EDA00C63A487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167C9678-DCA1-4307-A135-EDA00C63A487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167C9678-DCA1-4307-A135-EDA00C63A487}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
