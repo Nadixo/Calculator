@@ -31,7 +31,7 @@
             if (divisor == 0)
             {
                 Console.Write("Dont divide by 0 dumb cunt");
-                return item;
+                return 0;
             }
             else
             {
@@ -40,6 +40,7 @@
             }
             
         }
+
         public double Accumulator
         {
             get
