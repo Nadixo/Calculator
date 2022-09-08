@@ -17,6 +17,7 @@ namespace Calculator_Test
         [TestCase(-1, 1)]
         [TestCase(-3.25, 4.1)]
         [TestCase(5, 1)]
+        [TestCase(6, 1)]
         public void Add_Test1(double a, double b)
         {
             Assert.AreEqual(a + b, calculator.Add(a, b));
