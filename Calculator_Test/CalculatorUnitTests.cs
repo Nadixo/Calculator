@@ -47,33 +47,6 @@ namespace Calculator_Test
             Assert.AreEqual(ans, calculator.Power(a, b));
         }
 
-        [TestCase(-1, 1, -1)]
-        [TestCase(-3, 4, -0.75)]
-        [TestCase(5, 1, 5)]
-        [TestCase(6, 0, 0)]
-        public void Divide_Test1(double a, double b, double ans)
-        {
-            Assert.AreEqual(ans, calculator.Divide(a, b));
-        }
-
-        [TestCase]
-        [TestCase]
-        [TestCase]
-        public void clear()
-        {
-            calculator.Clear();
-            Assert.AreEqual(0, calculator.Accumulator);
-        }
-
-        [TestCase(-1, 1, 0)]
-        [TestCase(-3.25, 4.25, 1)]
-        [TestCase(5, 1, 6)]
-        [TestCase(6, 1, 7)]
-        public void Accumulative_Add_Test1(double a, double b, double ans)
-        {
-            calculator.Add(a);
-            Assert.AreEqual(ans, calculator.Add(b));
-        }
 
         [TestCase(1, 4)]
         [TestCase(1, 1)]
@@ -97,7 +70,7 @@ namespace Calculator_Test
         [TestCase(-3.25)]
         [TestCase(5)]
         [TestCase(6)]
-        public void Add_Test2(double a)
+        public void Accumulator_Add_Test1(double a)
         {
             calculator.Accumulator = 2;
             Assert.AreEqual(a + calculator.Accumulator, calculator.Add(a));
@@ -106,7 +79,7 @@ namespace Calculator_Test
         [TestCase(-3)]
         [TestCase(5)]
         [TestCase(7)]
-        public void Subtract_Test2(double a)
+        public void Accumulator_Subtract_Test1(double a)
         {
             calculator.Accumulator = 2;
             Assert.AreEqual(calculator.Accumulator - a, calculator.Subtract(a));
@@ -115,7 +88,7 @@ namespace Calculator_Test
         [TestCase(2)]
         [TestCase(7)]
         [TestCase(11)]
-        public void Multiply_Test2(double a)
+        public void Accumulator_Multiply_Test1(double a)
         {
             calculator.Accumulator = 2;
             Assert.AreEqual(calculator.Accumulator * a, calculator.Multiply(a));
@@ -124,7 +97,7 @@ namespace Calculator_Test
         [TestCase(-1)]
         [TestCase(5)]
         [TestCase(10)]
-        public void Divide_Test2(double a)
+        public void Accumulator_Divide_Test1(double a)
         {
             calculator.Accumulator = 2;
             Assert.AreEqual(calculator.Accumulator / a, calculator.Divide(a));
@@ -133,7 +106,7 @@ namespace Calculator_Test
         [TestCase(-8)]
         [TestCase(1)]
         [TestCase(9)]
-        public void Power_Test2(double a)
+        public void Accumulator_Power_Test1(double a)
         {
             calculator.Accumulator = 2;
             Assert.AreEqual(Math.Pow(calculator.Accumulator, a), calculator.Power(a));

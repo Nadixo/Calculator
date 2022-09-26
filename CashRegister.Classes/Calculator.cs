@@ -31,7 +31,7 @@
             if (divisor == 0)
             {
                 Console.Write("Dont divide by 0");
-                return item;
+                return 0;
             }
             else
             {
