@@ -40,6 +40,7 @@
             }
             
         }
+
         public double Accumulator
         {
             get
