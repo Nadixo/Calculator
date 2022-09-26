@@ -30,7 +30,7 @@
             
             if (divisor == 0)
             {
-                Console.Write("Dont divide by 0 dumb cunt");
+                Console.Write("Dont divide by 0");
                 return item;
             }
             else
@@ -46,7 +46,7 @@
             {
                 return item;
             }
-            private set
+             set
             {
                 item = value;
             }
@@ -77,8 +77,16 @@
 
         public double Divide(double divisor)
         {
-            item /= divisor;
-            return item;
+            if (divisor == 0)
+            {
+                Console.Write("Dont divide by 0");
+                return item;
+            }
+            else
+            {
+               item /= divisor;
+               return item;
+            }
         }
 
         public double Power(double exponent)
